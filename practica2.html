@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Practica2</title>
+	<!-- define el congunto de caracteres-->
+	<meta name="autor"content=183755>
+	<link rel="icon" type="images/jfif" href="images/log.jfif">
+    <style type="text/css">
+        td{
+
+			background-color: rgb(104, 103, 103);
+		}
+
+    </style>
+    <style>
+        table {
+            width: 75%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        td img {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+    <script>
+        function mostrarImagen(src) {
+            document.getElementById('imagenAmpliada').src = src;
+        }
+    </script>
+
+</head>
+<body background="images/GALAXIA.jpg" style=" background-repeat: no-repeat; background-size: 100%; background-attachment: fixed;">
+
+    <table align="center" style="border: 1px solid rgb(4, 4, 4);" >
+        <caption align="center" style="border: 1px solid rgb(3, 3, 3);
+        background-color:rgb(230, 165, 159);"><strong> SISTEMA SOLAR </strong></caption>
+
+        <tr>
+            <td align="center"><img src="images/marte.jpg" onclick="mostrarImagen('marte.html')"></td>
+            <td align="center"><img src="images/saturno.jpg" onclick="mostrarImagen('saturno.html')"></td>
+            <td align="center"> <img src="images/tierra.jpg" onclick="mostrarImagen('tierra.html')"></td>
+            <td align="center"><img src="images/jupiter.jpg" onclick="mostrarImagen('jupiter.html')"></td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td colspan="4" rowspan="4" > <iframe id="imagenAmpliada" style="width: 200px; height:200px; display:block; margin: 20px auto;"></iframe> </td>
+            
+                
+                
+            </tr>
+        </tfoot>
+        
+    </table>
+
+    
+
+</body>
+</html>
