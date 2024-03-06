@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Venta en línea</title>
+	</head>
+	<body>
+		<header>
+			<h1 align="center">Venta en línea</h1>
+		</header>
+	<form method="post" action="" enctype="text/plain">
+			<fieldset>
+			<legend>Informacón general</legend>
+		<table>
+		<td>
+			<label for="name">Nombre:</label>
+			<br/>
+			<input type="text" name="nombre" maxlength="25" placeholder="Nombre" title="Nombre" required>
+		</td>
+		<td>
+			<label for="apellido p">Apellido paterno:</label> <br/>
+			<input type="text" name="app" maxlength="25" placeholder="Apellido paterno" title="Apellido paterno">
+		</td>
+		<td>
+			<label for="apellido m">Apellido materno:</label> <br/>
+			<input type="text" name="apm" maxlength="25" placeholder="Apellido materno" title="Apellido materno">
+		</td>
+		</table>
+		<table>
+		<td>
+			<label for="name">Nombre del usuario:</label>
+			<br/>
+			<input type="text" name="nombre del usuario" maxlength="25" placeholder="Nombre del usuario" title="Nombre del usuario" required>
+		</td>
+		<td>
+			<label for="pass">Contraseña</label> <br/>
+			<input type="password" name="pass" id="pass" maxlength="25" size="15" placeholder="password" title="password" required>
+		</td>
+		<td>
+			<label for="date">Fecha de nacimiento:</label> <br/>
+			<input type="date" name="fecha" id="fecha">
+		</td>
+		</table>
+		</fieldset>
+		<fieldset>
+			<legend>Datos de facturacion</legend>
+			<table>
+				<td>
+					<label for="pais" id="pais">Pais:</label> <br/>
+					<select name="pais" id="pais" multiple required>
+					<option>Mexico</option>
+					<option>Canada</option>
+					<option>E.U.A</option>
+					<option>Brasil</option>
+					<option>Colombia</option>
+					<optgroup>
+					</optgroup>
+				</td>
+				<td>
+					<label for="Ciudad" id="Ciudad">Ciudad:</label> <br/>
+					<select name="Ciudad" id="Ciudad" multiple required>
+					<option>San Luis Potosí</option>
+					<option>Matehuala</option>
+					<option>Cd. Valles</option>
+					<option>Ahualulco</option>
+					<optgroup>
+					</optgroup>
+				</td>
+				<td>
+					<label for="Calle">Calle:</label>
+					<br/>
+					<input type="text" name="Calle" maxlength="25" placeholder="Calle" title="Calle">
+					
+				</td>
+			</table>
+			<table>
+				<td>
+					<label for="NC">Numero de casa</label>
+					<br/>
+					<input type="number" name="Numero de casa"placeholder="Numero exterior" title="numero exterior">
+					
+				</td>
+				<td>
+					<label for="Colonia">Colonia:</label>
+					<br/>
+					<input type="text" name="Colonia" maxlength="25" placeholder="Colonia" title="Colonia">
+					
+				</td>
+				<td>
+					<label for="email">Email:</label>
+					<br/>
+					<input type="email" name="Email" placeholder="Email" title="Email">
+					
+				</td>
+			</table>
+			<table>
+				<td>
+					<label for="RFC">RFC:</label>
+					<br/>
+					<input type="text" name="RFC" maxlength="13" placeholder="RFC" title="RFC">
+				</td>
+				<td>
+					<label for="CP">C.P</label>
+					<br/>
+					<input type="number" name="Codigo postal"placeholder="Codigo postal" title="Codigo postal">
+					
+				</td>
+				<td>
+					<input type="submit" name="Envio" id="envio" value="Enviar">
+					<input type="reset" name="borrar" value="Restablecer" id="borrar">
+				</td>
+			</table>
+		</fieldset>
+	</form>
+
+	</body>
+</html>
