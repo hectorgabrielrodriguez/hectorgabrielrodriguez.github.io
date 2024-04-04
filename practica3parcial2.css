@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+    width: 300px;
+    height: 150px;
+    background-color: #e114d7;
+    color: #333;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.contenedor:hover {
+    background-color: #4fe90c;
+    border-radius: 50%;
+    transform: rotate(5deg);
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(204, 7, 7);
+}
+
+
+
+#texto {
+    text-decoration: none;
+    color: #ffffffff;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#texto:active {
+    
+    width: 300px;
+    height: 150px;
+    background-color: #13b2e7;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(247, 247, 247, 0.69);
+    box-shadow: rgba(5, 5, 5, 0.703) 5px 5px ;
+    -moz-box-shadow: rgba(5, 5, 5, 0.703) 5px 5px ;
+    -webkit-box-shadow: rgba(5, 5, 5, 0.703) 5px 5px ;
+
+}
+
+
+
