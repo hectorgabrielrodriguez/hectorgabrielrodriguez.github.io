@@ -1,0 +1,40 @@
+@media screen {
+    body{
+      background-color: rgb(66, 47, 66);
+    }
+  }
+
+input{
+    width: 350px;
+    height: 30px;
+    background-color: rgb(162, 5, 246);
+    float: center;
+    font-family:"Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(247, 247, 247);
+}
+
+#principal{
+    background-color:rgb(236, 133, 226);
+    border: 20px solid rgb(236, 133, 226);
+    text-align: center;
+    margin: auto;
+    width: 350px;
+    border-radius: 50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px ;
+    box-shadow: rgb(194, 91, 226) -5px 5px ;
+    -moz-box-shadow: rgb(194, 91, 226) -5px 5px;
+    -webkit-box-shadow: rgb(194, 91, 226) -5px 5px;
+}
+
+
+
+
+
+
+
+  
+
+  
