@@ -1,0 +1,48 @@
+@media screen {
+    body{
+      background-color: rgb(245, 164, 202);
+    }
+  }
+
+  input{
+    width: 350px;
+    height: 30px;
+    background-color: rgb(234, 137, 192);
+    float: center;
+    font-family:"Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(252, 252, 252);
+}
+
+#cadena{
+    width: 350px;
+    height: 30px;
+    background-color: rgb(255, 254, 254);
+    float: center;
+    font-family:"Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+h3{
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+
+#principal{
+    background-color:rgb(209, 208, 209);
+    border: 20px solid rgb(209, 208, 209);
+    text-align: center;
+    margin: auto;
+    width: 350px;
+}
+
