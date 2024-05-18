@@ -1,0 +1,74 @@
+
+@media screen {
+    body{
+      background-color: rgb(56, 67, 74);
+    }
+  }
+
+
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+form {
+    margin-bottom: 1em;
+    background-color:rgb(133, 184, 236);
+    border: 20px solid rgb(133, 184, 236);
+    text-align: left;
+    margin: auto;
+    width: 350px;
+    border-radius: 50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px ;
+    box-shadow: rgb(91, 166, 241) -5px 5px ;
+    -moz-box-shadow: rgb(91, 166, 241) -5px 5px;
+    -webkit-box-shadow: rgb(91, 166, 241) -5px 5px;
+}
+
+input, button {
+    padding: 0.5em;
+    
+   
+    background-color:rgb(230, 65, 65);
+    text-align: center;
+    margin: auto;
+    width: 250px;
+    border-radius: 50px;
+    float: center;
+    margin-left: 50px;
+
+}
+
+input {
+    padding: 0.5em;
+    
+   
+    background-color:rgb(244, 244, 244);
+    text-align: center;
+    margin: auto;
+    width: 335px;
+    border-radius: 50px;
+    padding: auto;
+    float: center;
+
+}
+
+#resultado {
+    color: rgb(0, 0, 0);
+    background-color:rgb(133, 184, 236);
+    border: 20px solid rgb(133, 184, 236);
+    text-align: center;
+    margin: auto;
+
+    width: 350px;
+    border-radius: 50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px ;
+    box-shadow: rgb(91, 166, 241) -5px 5px ;
+    -moz-box-shadow: rgb(91, 166, 241) -5px 5px;
+    -webkit-box-shadow: rgb(91, 166, 241) -5px 5px;
+}
+h1{
+    text-align: center;
+}
